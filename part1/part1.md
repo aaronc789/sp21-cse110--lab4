@@ -14,3 +14,4 @@
 1. Prints out '3', i gets incremented in the for loop until it reaches the length of prices, which is 3.
 2. Prints out '150', the last iteration of the for loop has i = 2, so var discountedPrice will print out [300 * (1 - 0.5)] = 150.
 3. Prints out '150', the last iteration of the for loop has i = 2 and discountedPrice = 150, so finalPrice = Math.round(150 * 100) / 100 = 150.
+4. Function will return '[ 50, 100, 150 ]', since discounted gets calculated for every iteration of the for loop and each value gets pushed into discounted.

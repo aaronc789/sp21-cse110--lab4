@@ -1,4 +1,4 @@
-//Question 3
+//Question 4
 function discountPrices(prices, discount) {
     var discounted = [];
     var finalPrice = 0;
@@ -11,7 +11,7 @@ function discountPrices(prices, discount) {
 
     //console.log(i);
     //console.log(discountedPrice);
-    console.log(finalPrice);
+    //console.log(finalPrice);
 
     return discounted;
 }
