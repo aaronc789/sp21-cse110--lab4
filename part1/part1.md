@@ -22,3 +22,8 @@
 9. "ReferenceError: i is not defined." This is because let variables are block scoped, so since i is declared inside the for loop, it is only accessible within that for loop, not outside.
 10. Prints out '3', const length is initialized at the beginning of the discountPrices function with a value of 3, so since it's const the console prints out the same value at the end of the function.
 11. Function will return '[ 50, 100, 150 ]'. Even though discounted is declared as a const in the beginning of the function, while the const variable cannot be updated, the properties of the const variable can be updated, hence why we are able to push values into discounted and return them.
+12. A) student.name;
+    B) student['Grad Year'];
+    C) student.greeting();
+    D) student['Favorite Teacher'].name;
+    E) student.courseLoad[0];
