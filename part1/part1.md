@@ -15,3 +15,10 @@
 2. Prints out '150', the last iteration of the for loop has i = 2, so var discountedPrice will print out [300 * (1 - 0.5)] = 150.
 3. Prints out '150', the last iteration of the for loop has i = 2 and discountedPrice = 150, so finalPrice = Math.round(150 * 100) / 100 = 150.
 4. Function will return '[ 50, 100, 150 ]', since discounted gets calculated for every iteration of the for loop and each value gets pushed into discounted.
+5. "ReferenceError: i is not defined." This is because let variables are block scoped, so since i is declared inside the for loop, it is only accessible within that for loop, not outside.
+6. "ReferenceError: discountedPrice is not defined." This is because let variables are block scoped, so since discountedPrice is declared inside the for loop, it is only accessible within that for loop, not outside.
+7. Prints out '150', finalPrice is declared inside the discountPrices function, so it is usable within the function scope. finalPrice is last updated in the last iteration of the for loop, so it calculates to 150, which is what is printed out. 
+8. Function will return '[ 50, 100, 150 ]', since discounted gets calculated for every iteration of the for loop and each value gets pushed into discounted.
+9. "ReferenceError: i is not defined." This is because let variables are block scoped, so since i is declared inside the for loop, it is only accessible within that for loop, not outside.
+10. Prints out '3', const length is initialized at the beginning of the discountPrices function with a value of 3, so since it's const the console prints out the same value at the end of the function.
+11. Function will return '[ 50, 100, 150 ]'. Even though discounted is declared as a const in the beginning of the function, while the const variable cannot be updated, the properties of the const variable can be updated, hence why we are able to push values into discounted and return them.
