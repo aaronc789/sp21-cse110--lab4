@@ -27,4 +27,18 @@
     C) student.greeting();\
     D) student['Favorite Teacher'].name;\
     E) student.courseLoad[0];
-13. 
+13. A) '32', integers map to their exact string representation.\
+    B) 1, strings cannot perform subtraction, so the '3' is converted to a number 3.\
+    C) 3, null value becomes 0.\
+    D) '3null', null conversion becomes a string "null."\
+    E) 4, true conversion becomes 1.\
+    F) 0, false conversion becomes 0, null value becomes 0.\
+    G) '3undefined', null conversion becomes a string "undefined."\
+    H) NaN, strings cannot perform subtraction, so undefined is converted to NaN.
+14. A) true, string '2' becomes a number 2.\
+    B) false, dictionary comparison, first char '2' is greater than first char '1'.\
+    C) true, string '2' becomes a number 2.\
+    D) false, because the types are different.\
+    E) false, true becomes value 1, which does not compare to 2.\
+    F) true, Boolean(2) conversion is true, so true compares to true.
+15. The difference between == and === operators is that operands of different types are converted to numbers by the equality operator ==. A strict equality operator === checks the equality without type conversion.
