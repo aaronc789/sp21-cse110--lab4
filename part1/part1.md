@@ -42,5 +42,5 @@
     E) false, true becomes value 1, which does not compare to 2.\
     F) true, Boolean(2) conversion is true, so true compares to true.
 15. The difference between == and === operators is that operands of different types are converted to numbers by the equality operator ==. A strict equality operator === checks the equality without type conversion.
-17. The result will be '[2, 4, 6]'. ModifyArray takes the two parameters and runs through the function. Once it reaches the for loop, for every iteration of i the callback function will be called with i as the parameter, and the value will be changed. This repeats for every iteration of i in the loop until the loop exits, which we then return the new modified array.
+17) The result will be '[2, 4, 6]'. ModifyArray takes the two parameters and runs through the function. Once it reaches the for loop, for every iteration of i the callback function will be called with i as the parameter, and the value will be changed. This repeats for every iteration of i in the loop until the loop exits, which we then return the new modified array.
 19. The output is 1 4 3 2, the console.log values get printed first, then the value with a timeout of 0 seconds, then the value with a timeout of 1 second.
